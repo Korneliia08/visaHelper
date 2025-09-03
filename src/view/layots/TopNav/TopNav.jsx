@@ -1,0 +1,20 @@
+import s from "./TopNav.module.scss";
+
+function TopNav() {
+    return (
+        <div className={s.topNav}>
+            <div className={s.divForLogo}></div>
+            <div className={s.containerForNavAndBtn}>
+                <nav className={s.nav}>
+                    <a href="">Про мене</a>
+                    <a href="">Послуги</a>
+                    <a href="">Відгуки</a>
+                    <a href="">Питання</a>
+                </nav>
+                <button className={s.btnContactMe}>Контакт</button>
+            </div>
+        </div>
+    )
+}
+
+export default TopNav

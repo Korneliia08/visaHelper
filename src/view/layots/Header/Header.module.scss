@@ -1,0 +1,73 @@
+.header {
+  height: calc(100vh - 50px);
+  width: 100%;
+  background-color: #E5E6E1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  display: flex;
+
+  .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 40px;
+
+    .subtitle {
+      font-size: 45px;
+      width: 500px;
+    }
+
+    .content {
+      font-size: 18px;
+      width: 500px;
+    }
+
+    .blockForBtns {
+      display: flex;
+      column-gap: 15px;
+
+      .aboutMeBtn, .consultationBtn {
+        padding: 10px 15px;
+        width: 180px;
+        border-radius: 18px;
+        border: none;
+        font-size: 14px;
+        transition: 125ms ease;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      .aboutMeBtn {
+        background-color: #222222;
+        color: white;
+      }
+
+      .consultationBtn {
+        border: 1px solid #222222;
+        color: #222222;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    .imgHeader {
+      height: 600px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+  }
+}
