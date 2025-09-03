@@ -1,4 +1,6 @@
 import s from "./StepByStepSupport.module.scss";
+import Card from "./Card/Card.jsx";
+import {data} from "./CardsData.jsx";
 
 function StepByStepSupport({mainWrapper}) {
     return (
@@ -7,6 +9,11 @@ function StepByStepSupport({mainWrapper}) {
                 <div className={s.topContainer}>
                     <h5 className={s.title}>I help people tackle their business issues</h5>
                     <p className={s.content}>It’s easy to get the results you want with the top-quality advice.</p>
+                </div>
+                <div className={s.bottomContainer}>
+                    {data.map((obj, index) => {
+                        return <Card key={index} data={obj}/>
+                    })}
                 </div>
             </div>
         </div>
