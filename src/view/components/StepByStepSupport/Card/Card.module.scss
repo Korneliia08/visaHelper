@@ -1,14 +1,29 @@
 .card {
   background-color: #E5E6E1;
   width: 30%;
-  padding: 10px 15px;
+  padding: 25px;
   border-radius: 12px;
+  position: relative;
 
-  .title {
+  .blockForContent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: flex-start;
 
+    .title {
+      padding-top: 50px;
+    }
+
+    .content {
+
+    }
   }
 
-  .content {
-
+  .iconStyle {
+    top: 25px;
+    color: #292929;
+    font-size: 25px;
+    position: absolute;
   }
 }

@@ -7,8 +7,9 @@ function StepByStepSupport({mainWrapper}) {
         <div className={s.stepByStepSupport}>
             <div className={s.wrapper} style={{width: mainWrapper}}>
                 <div className={s.topContainer}>
-                    <h5 className={s.title}>I help people tackle their business issues</h5>
-                    <p className={s.content}>It’s easy to get the results you want with the top-quality advice.</p>
+                    <h5 className={s.title}>Допомагаю робити складні речі простішими</h5>
+                    <p className={s.content}>Підтримую вас на кожному етапі процесу, щоб ви почувалися впевнено і
+                        могли зосередитись на головному</p>
                 </div>
                 <div className={s.bottomContainer}>
                     {data.map((obj, index) => {
