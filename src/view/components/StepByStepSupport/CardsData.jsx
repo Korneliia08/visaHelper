@@ -1,6 +1,6 @@
 import {BiMessageRoundedDots} from "react-icons/bi";
 import {IoDocumentsOutline} from "react-icons/io5";
-import {FaHandshakeSimple} from "react-icons/fa6";
+import {LiaHandshakeSolid} from "react-icons/lia";
 
 export const data = [
     {
@@ -16,7 +16,7 @@ export const data = [
     {
         title: "Супровід у процесі",
         content: "Беру на себе організаційні питання, щоб ви зосередились на головному.",
-        icon: FaHandshakeSimple
+        icon: LiaHandshakeSolid
     }
 ];
 

@@ -15,7 +15,8 @@ function TopNav() {
                     <a href="">Про мене</a>
                     <a href="">Послуги</a>
                     <a href="">Відгуки</a>
-                    <a href="">Питання</a>
+                    <a href="">Консультація</a>
+                    <a href="">Контакти</a>
                 </nav>
                 <div className={s.blockForBtns}>
                     <img src={tg} alt="tg" className={s.iconContact}/>
