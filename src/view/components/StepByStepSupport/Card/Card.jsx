@@ -3,7 +3,7 @@ import s from "./Card.module.scss";
 function Card({data}) {
     const Icon = data.icon;
     return (
-        <div className={s.card}>
+        <div className={s.card} style={{backgroundColor: data.color}}>
             <Icon className={s.iconStyle}/>
             <div className={s.blockForContent}>
                 <h3 className={s.title}>

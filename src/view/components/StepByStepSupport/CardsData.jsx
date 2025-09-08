@@ -6,17 +6,20 @@ export const data = [
     {
         title: "Консультація",
         content: "Професійно роз’ясню процедури та можливі варіанти дій.",
-        icon: BiMessageRoundedDots
+        icon: BiMessageRoundedDots,
+        color: "white"
     },
     {
         title: "Підготовка документів",
         content: "Оформлює й перевіряю всі документи для подачі.",
-        icon: IoDocumentsOutline
+        icon: IoDocumentsOutline,
+        color: "#E5E6E1"
     },
     {
         title: "Супровід у процесі",
         content: "Беру на себе організаційні питання, щоб ви зосередились на головному.",
-        icon: LiaHandshakeSolid
+        icon: LiaHandshakeSolid,
+        color: "#B0BBBA"
     }
 ];
 

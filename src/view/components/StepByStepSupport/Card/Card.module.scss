@@ -29,4 +29,9 @@
     font-size: 25px;
     position: absolute;
   }
+
+  &:first-child {
+    //border: 1px solid #E5E6E1;
+    box-shadow: 0px 0px 18px 1px rgba(188, 188, 188, 0.46);
+  }
 }
