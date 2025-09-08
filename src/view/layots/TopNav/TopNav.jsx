@@ -1,5 +1,6 @@
 import s from "./TopNav.module.scss";
 import logo from "./../../../assets/logo.png";
+import {BsChat} from "react-icons/bs";
 
 function TopNav() {
     return (
@@ -15,7 +16,10 @@ function TopNav() {
                     <a href="">Відгуки</a>
                     <a href="">Питання</a>
                 </nav>
-                <button className={s.btnContactMe}>Контакт</button>
+                <div className={s.blockForBtn}>
+                    <button className={s.btnContactMe}>Контакт</button>
+                    <BsChat className={s.iconChat}/>
+                </div>
             </div>
         </div>
     )
