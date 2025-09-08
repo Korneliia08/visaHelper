@@ -8,9 +8,25 @@
   justify-content: space-between;
   position: sticky;
   top: 0;
+  z-index: 500;
 
   .divForLogo {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
 
+    .logo {
+      width: 33px;
+    }
+
+    .logoName {
+      font-size: 18px;
+      background: linear-gradient(90deg, #0d47a1, #1976d2, #42a5f5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
   }
 
   .containerForNavAndBtn {
