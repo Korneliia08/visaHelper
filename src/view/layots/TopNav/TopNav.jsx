@@ -1,6 +1,7 @@
 import s from "./TopNav.module.scss";
 import logo from "./../../../assets/logo.png";
-import {FaTeamspeak} from "react-icons/fa";
+import tg from "./../../../assets/iconsSocialsMedia/tg.png";
+import insta from "./../../../assets/iconsSocialsMedia/insta.png";
 
 function TopNav() {
     return (
@@ -16,9 +17,9 @@ function TopNav() {
                     <a href="">Відгуки</a>
                     <a href="">Питання</a>
                 </nav>
-                <div className={s.blockForBtn}>
-                    <button className={s.btnContactMe}>Консультація</button>
-                    <FaTeamspeak className={s.iconChat}/>
+                <div className={s.blockForBtns}>
+                    <img src={tg} alt="tg" className={s.iconContact}/>
+                    <img src={insta} alt="insta" className={s.iconContact}/>
                 </div>
             </div>
         </div>
