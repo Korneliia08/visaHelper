@@ -14,6 +14,7 @@ function Header({mainWrapper}) {
                         <button className={s.aboutMeBtn}>Про мене</button>
                         <button className={s.consultationBtn}>Консультація</button>
                     </div>
+                    {/*<img src={PolandAndUkraineTogether} alt="PolandAndUkraineTogether" className={s.imgStyle}/>*/}
                 </div>
                 <div className={s.right}>
                     <img src={imgHeader} alt="imgHeader" className={s.imgHeader}/>

@@ -1,7 +1,7 @@
 import s from "./TopNav.module.scss";
 import logo from "./../../../assets/logo.png";
-import tg from "./../../../assets/iconsSocialsMedia/tg.png";
-import insta from "./../../../assets/iconsSocialsMedia/insta.png";
+// import tg from "./../../../assets/";
+// import insta from "../../../assets/iconsSocialsMedia/insta.png";
 
 function TopNav() {
     return (
@@ -19,12 +19,12 @@ function TopNav() {
                     <a href="">Контакти</a>
                 </nav>
                 <div className={s.blockForBtns}>
-                    <img src={tg} alt="tg" className={s.iconContact}/>
-                    <img src={insta} alt="insta" className={s.iconContact}/>
+                    {/*<img src={tg} alt="tg" className={s.iconContact}/>*/}
+                    {/*<img src={insta} alt="insta" className={s.iconContact}/>*/}
                 </div>
             </div>
         </div>
     )
 }
 
-export default TopNav
+export default TopNav;
