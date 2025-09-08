@@ -19,12 +19,14 @@
 
     .subtitle {
       font-size: 45px;
+      font-family: "Lora", serif;
       width: 500px;
     }
 
     .content {
       font-size: 18px;
       width: 500px;
+      font-family: "Lora", serif;
     }
 
     .blockForBtns {
@@ -38,6 +40,7 @@
         border: none;
         font-size: 14px;
         transition: 125ms ease;
+        font-family: "Lora", serif;
 
         &:hover {
           cursor: pointer;

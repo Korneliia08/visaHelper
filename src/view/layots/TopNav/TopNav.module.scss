@@ -20,12 +20,13 @@
     }
 
     .logoName {
-      font-size: 18px;
+      font-size: 16px;
       background: linear-gradient(90deg, #0d47a1, #1976d2, #42a5f5);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
       color: transparent;
+      font-family: "Lora", serif;
     }
   }
 
@@ -44,6 +45,8 @@
         color: #222222;
         text-decoration: none;
         transition: 125ms ease;
+        font-family: "Lora", serif;
+        font-size: 16px;
 
         &:hover {
           cursor: pointer;
@@ -53,13 +56,14 @@
 
     .btnContactMe {
       padding: 10px 15px;
-      width: 180px;
+      width: 160px;
       border-radius: 18px;
       font-size: 13px;
       transition: 125ms ease;
       border: 1px solid #222222;
       color: #222222;
       background-color: transparent;
+      font-family: "Lora", serif;
       font-weight: bold;
 
       &:hover {
