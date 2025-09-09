@@ -9,7 +9,7 @@ function AboutMe({mainWrapper}) {
                 <div className={s.left}>
                     <div className={s.contentBlock}>
                         <h4 className={s.title}>
-                            Ваш провідник у складних ситуаціях — Альбіна Мушак
+                            Ваш провідник у складних ситуаціях — <span className={s.gradientText}>Альбіна Мушак</span>
                         </h4>
                         <p className={s.content}>
                             Мене звати Альбіна Мушак, і вже багато років я допомагаю людям знаходити правильні рішення у

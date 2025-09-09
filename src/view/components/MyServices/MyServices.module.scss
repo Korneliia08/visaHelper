@@ -1,28 +1,70 @@
 .mainWrapper {
-  .topConsultation {
-    .left {
-      .title {
+  display: flex;
+  flex-direction: column;
 
+  .topConsultation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      row-gap: 10px;
+
+      .title {
+        font-family: "Lora", serif;
+        font-size: 34px;
       }
 
       .description {
-
+        font-size: 16px;
+        font-family: "Lora", serif;
+        color: #222222;
       }
     }
 
     .btnConsulting {
+      background-color: transparent;
+      border: 1px solid #222222;
+      width: 210px;
+      height: 45px;
+      font-size: 16px;
+      border-radius: 25px;
+      transition: 125ms ease;
 
+      &:hover {
+        cursor: pointer;
+      }
     }
   }
 
   .containerForServices {
-    .service {
-      .title {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    row-gap: 25px;
+    column-gap: 8px;
 
+    .service {
+      width: calc(33% - 4px);
+      display: flex;
+      flex-direction: column;
+      row-gap: 5px;
+      padding: 0 15px 0 0;
+
+      .title {
+        font-family: "Lora", serif;
+        font-size: 20px;
+        color: #222222;
       }
 
       .description {
-
+        font-family: "Lora", serif;
+        font-size: 16px;
+        color: #222222;
       }
     }
   }

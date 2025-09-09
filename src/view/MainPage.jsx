@@ -13,7 +13,7 @@ function MainPage() {
             <Header mainWrapper={mainWrapper}/>
             <StepByStepSupport mainWrapper={mainWrapper}/>
             <AboutMe mainWrapper={mainWrapper}/>
-            <MyServices/>
+            <MyServices mainWrapper={mainWrapper}/>
         </div>
     )
 }

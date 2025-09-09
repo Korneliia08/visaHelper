@@ -17,6 +17,7 @@
         .title {
           font-size: 34px;
           font-family: "Lora", serif;
+          color: #2e2e2e;
         }
 
         .content {
@@ -42,6 +43,7 @@
 
               .icCheck {
                 font-size: 14px;
+                color: #6c8851;
               }
 
               .liStyle {
@@ -68,11 +70,13 @@
           .number {
             font-size: 40px;
             font-family: "Lora", serif;
+            color: #2e2e2e;
           }
 
           .description {
             font-size: 17px;
             font-family: "Lora", serif;
+            color: #2e2e2e;
           }
         }
       }
@@ -82,4 +86,26 @@
       width: 50%;
     }
   }
+}
+
+.gradientText {
+  font-weight: bold;
+  background: linear-gradient(
+                  45deg,
+                  #FFD700, // яскравий класичний золотий
+                  #FFC300, // теплий насичений
+                  #FFB000, // глибокий золотий
+                  #E6A700, // темніший відтінок для блиску
+                  #FFD633 // світлий відтінок для сяйва
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  /* для Firefox */
+  background-clip: text;
+  color: transparent;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  font-family: "Lora", serif;
+
 }
