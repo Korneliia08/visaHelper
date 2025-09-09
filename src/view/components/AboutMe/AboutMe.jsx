@@ -1,4 +1,5 @@
 import s from "./AboutMe.module.scss";
+import {FaCheck} from "react-icons/fa";
 
 
 function AboutMe({mainWrapper}) {
@@ -15,14 +16,21 @@ function AboutMe({mainWrapper}) {
                             складних ситуаціях.
                             Моя мета – не лише дати відповідь на запитання, а й підтримати, пояснити всі можливі
                             варіанти та супроводити на кожному етапі.
-
-                            Чому саме я?<br/>
-
-                            ✅ Багаторічний досвід консультацій<br/>
-
-                            ✅ Індивідуальний підхід до кожного клієнта<br/>
-
-                            ✅ Відповідальність і увага до деталей<br/>
+                            <div className={s.list}>
+                                <h4 className={s.subtitle}> Чому саме я?</h4>
+                                <div className={s.row}>
+                                    <FaCheck className={s.icCheck}/>
+                                    <span className={s.liStyle}>Багаторічний досвід консультацій</span>
+                                </div>
+                                <div className={s.row}>
+                                    <FaCheck className={s.icCheck}/>
+                                    <span className={s.liStyle}>Індивідуальний підхід до кожного клієнта</span>
+                                </div>
+                                <div className={s.row}>
+                                    <FaCheck className={s.icCheck}/>
+                                    <span className={s.liStyle}>Відповідальність і увага до деталей</span>
+                                </div>
+                            </div>
 
                             Я вірю, що кожен має право отримати зрозумілу допомогу, без зайвих труднощів та стресу. Саме
                             тому моя робота – зробити процес максимально простим і зрозумілим для вас.

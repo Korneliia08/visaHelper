@@ -1,5 +1,5 @@
 .aboutMe {
-  margin: 50px 0;
+  margin: 50px 0 80px 0;
 
   .wrapper {
     display: flex;
@@ -16,16 +16,45 @@
 
         .title {
           font-size: 34px;
+          font-family: "Lora", serif;
         }
 
         .content {
           font-size: 16px;
+          font-family: "Lora", serif;
+
+          .list {
+            display: flex;
+            flex-direction: column;
+            row-gap: 8px;
+            padding: 20px 0;
+
+            .subtitle {
+              font-family: "Lora", serif;
+              margin: 0px 0 5px 0;
+              font-size: 16px;
+            }
+
+            .row {
+              display: flex;
+              align-items: center;
+              column-gap: 10px;
+
+              .icCheck {
+                font-size: 14px;
+              }
+
+              .liStyle {
+                font-family: "Lora", serif;
+              }
+            }
+          }
         }
       }
 
       .statistics {
         display: flex;
-        padding-top: 25px;
+        padding-top: 33px;
         width: 100%;
         justify-content: space-between;
 
@@ -38,10 +67,12 @@
 
           .number {
             font-size: 40px;
+            font-family: "Lora", serif;
           }
 
           .description {
             font-size: 17px;
+            font-family: "Lora", serif;
           }
         }
       }
