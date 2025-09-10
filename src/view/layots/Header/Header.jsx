@@ -1,5 +1,8 @@
 import s from "./Header.module.scss";
 import imgHeader from "./../../../assets/header.png";
+import orzel from "./../../../assets/orzel.png";
+import tryzub from "./../../../assets/herbUkrainy.png";
+
 
 function Header({mainWrapper}) {
     return (
@@ -7,6 +10,10 @@ function Header({mainWrapper}) {
             <div className={s.wrapper} style={{width: mainWrapper}}>
                 <div className={s.left}>
                     <h1 className={s.subtitle}>Ваші документи під контролем.</h1>
+                    <div className={s.container}>
+                        <img src={orzel} alt="orzel" className={s.orzel}/>
+                        <img src={tryzub} alt="tryzub" className={s.tryzub}/>
+                    </div>
                     <p className={s.content}>
                         Швидке і безпечне оформлення всіх необхідних документів.
                     </p>

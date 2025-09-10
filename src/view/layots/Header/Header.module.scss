@@ -23,6 +23,17 @@
       width: 500px;
     }
 
+    .container {
+      display: flex;
+      column-gap: 15px;
+
+      .orzel, .tryzub {
+        width: 70px;
+        height: 70px;
+        opacity: 0.9;
+      }
+    }
+
     .imgStyle {
       width: 140px;
     }
@@ -40,9 +51,9 @@
       .aboutMeBtn, .consultationBtn {
         padding: 10px 15px;
         width: 180px;
-        border-radius: 18px;
+        border-radius: 25px;
         border: none;
-        font-size: 14px;
+        font-size: 15px;
         transition: 125ms ease;
         font-family: "Lora", serif;
 
@@ -54,12 +65,23 @@
       .aboutMeBtn {
         background-color: #222222;
         color: white;
+
+        &:hover {
+          background-color: #c5c5c5;
+          color: #222222;
+        }
       }
 
       .consultationBtn {
         border: 1px solid #222222;
         color: #222222;
         font-weight: bold;
+
+        &:hover {
+          background-color: #222222;
+          color: white;
+          font-weight: bold;
+        }
       }
     }
   }

@@ -51,16 +51,23 @@
 
         &:hover {
           cursor: pointer;
+          color: #fb6b6b;
         }
       }
     }
 
     .blockForBtns {
       display: flex;
-      column-gap: 15px;
+      column-gap: 10px;
 
       .iconContact {
-        width: 28px;
+        width: 24px;
+        transition: 125ms ease;
+
+        &:hover {
+          cursor: pointer;
+          scale: 1.1;
+        }
       }
     }
   }
