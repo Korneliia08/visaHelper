@@ -15,6 +15,7 @@
       .title {
         font-family: "Lora", serif;
         font-size: 34px;
+        color: #2e2e2e;
       }
 
       .description {
@@ -54,12 +55,37 @@
       display: flex;
       flex-direction: column;
       row-gap: 5px;
-      padding: 0 15px 0 0;
+      padding: 0 25px 0 25px;
+      position: relative;
 
-      .title {
-        font-family: "Lora", serif;
-        font-size: 20px;
-        color: #222222;
+      .topBlock {
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+        transition: 125ms ease;
+
+        .icArrow {
+          font-size: 15px;
+          color: #bfbfbc;
+          position: absolute;
+          left: 0px;
+          top: 8px;
+        }
+
+        .title {
+          font-family: "Lora", serif;
+          font-size: 20px;
+          color: #222222;
+          transition: 125ms ease;
+        }
+
+        &:hover {
+          cursor: pointer;
+
+          .title {
+            color: #b8b8b8;
+          }
+        }
       }
 
       .description {
