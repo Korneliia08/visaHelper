@@ -32,10 +32,12 @@
       height: 45px;
       font-size: 16px;
       border-radius: 25px;
-      transition: 125ms ease;
+      transition: 250ms ease;
       font-family: "Lora", serif;
 
       &:hover {
+        background-color: #cfcfcf;
+        border: none;
         cursor: pointer;
       }
     }
@@ -83,7 +85,7 @@
           cursor: pointer;
 
           .title {
-            color: #b8b8b8;
+            color: #39677e;
           }
         }
       }
