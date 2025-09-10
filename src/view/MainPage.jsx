@@ -4,6 +4,7 @@ import StepByStepSupport from "./components/StepByStepSupport/StepByStepSupport.
 import AboutMe from "./components/AboutMe/AboutMe.jsx";
 import MyServices from "./components/MyServices/MyServices.jsx";
 import TopNav from "./layots/TopNav/TopNav.jsx";
+import Footer from "./layots/Footer/Footer.jsx";
 
 function MainPage() {
     const mainWrapper = 1100;
@@ -14,6 +15,7 @@ function MainPage() {
             <StepByStepSupport mainWrapper={mainWrapper}/>
             <AboutMe mainWrapper={mainWrapper}/>
             <MyServices mainWrapper={mainWrapper}/>
+            <Footer mainWrapper={mainWrapper}/>
         </div>
     )
 }
