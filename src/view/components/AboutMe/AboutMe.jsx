@@ -1,6 +1,6 @@
 import s from "./AboutMe.module.scss";
 import {FaCheck} from "react-icons/fa";
-
+import aboutMePhoto from "./../../../assets/header.png";
 
 function AboutMe({mainWrapper}) {
     return (
@@ -47,7 +47,9 @@ function AboutMe({mainWrapper}) {
                         </div>
                     </div>
                 </div>
-                <div className={s.right}></div>
+                <div className={s.right}>
+                    <img src={aboutMePhoto} alt="aboutMePhoto" className={s.imgStyle}/>
+                </div>
             </div>
         </div>
     )
