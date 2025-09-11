@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe/AboutMe.jsx";
 import MyServices from "./components/MyServices/MyServices.jsx";
 import TopNav from "./layots/TopNav/TopNav.jsx";
 import Footer from "./layots/Footer/Footer.jsx";
+import ArrowToTop from "../components/arrowToTop/ArrowToTop.jsx";
 
 function MainPage() {
     const mainWrapper = 1100;
@@ -16,6 +17,7 @@ function MainPage() {
             <AboutMe mainWrapper={mainWrapper}/>
             <MyServices mainWrapper={mainWrapper}/>
             <Footer mainWrapper={mainWrapper}/>
+            <ArrowToTop/>
         </div>
     )
 }
