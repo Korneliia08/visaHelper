@@ -5,7 +5,7 @@ import {FaFacebookMessenger, FaTelegram, FaViber} from "react-icons/fa";
 function Footer({mainWrapper}) {
     const currentYear = new Date().getFullYear();
     return (
-        <div className={s.footer}>
+        <div className={s.footer} id={"contacts"}>
             <div className={s.wrapper} style={{width: mainWrapper}}>
                 <div className={s.top}>
                     <div className={s.left}>

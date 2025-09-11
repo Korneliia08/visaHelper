@@ -3,7 +3,7 @@ import {FaArrowRight} from "react-icons/fa";
 
 function MyServices({mainWrapper}) {
     return (
-        <div className={s.wrapper} style={{width: mainWrapper}}>
+        <div className={s.wrapper} style={{width: mainWrapper}} id={"servicesAndConsultation"}>
             <div className={s.mainWrapper}>
                 <div className={s.topConsultation}>
                     <div className={s.left}>

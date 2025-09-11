@@ -4,7 +4,7 @@ import aboutMePhoto from "./../../../assets/header.png";
 
 function AboutMe({mainWrapper}) {
     return (
-        <div className={s.aboutMe}>
+        <div className={s.aboutMe} id={"aboutMe"}>
             <div className={s.wrapper} style={{width: mainWrapper}}>
                 <div className={s.left}>
                     <div className={s.contentBlock}>
