@@ -3,8 +3,6 @@ import logo from "./../../../assets/logo.png";
 import viber from "./../../../assets/socialMedia/viber.png";
 import tg from "./../../../assets/socialMedia/tg.png";
 import mess from "./../../../assets/socialMedia/mess.png";
-import fb from "./../../../assets/socialMedia/fb.png";
-import insta from "./../../../assets/socialMedia/insta.png";
 
 
 function TopNav() {
@@ -26,8 +24,6 @@ function TopNav() {
                     <img src={viber} alt="viber" className={s.iconContact}/>
                     <img src={tg} alt="tg" className={s.iconContact}/>
                     <img src={mess} alt="mess" className={s.iconContact}/>
-                    <img src={fb} alt="fb" className={s.iconContact}/>
-                    <img src={insta} alt="insta" className={s.iconContact}/>
                 </div>
             </div>
         </div>

@@ -1,9 +1,9 @@
 import s from "./Footer.module.scss";
-import {FaFacebook, FaFacebookMessenger, FaTelegram, FaViber} from "react-icons/fa";
-import {PiInstagramLogoFill} from "react-icons/pi";
+import {FaFacebookMessenger, FaTelegram, FaViber} from "react-icons/fa";
 
 
 function Footer({mainWrapper}) {
+    const currentYear = new Date().getFullYear();
     return (
         <div className={s.footer}>
             <div className={s.wrapper} style={{width: mainWrapper}}>
@@ -31,14 +31,25 @@ function Footer({mainWrapper}) {
                                 <FaViber className={s.iconStyle}/>
                                 <FaTelegram className={s.iconStyle}/>
                                 <FaFacebookMessenger className={s.iconStyle}/>
-                                <FaFacebook className={s.iconStyle}/>
-                                <PiInstagramLogoFill className={s.iconStyle}/>
                             </div>
                             <button className={s.btnContact}>Зателефонуйте до мене</button>
                         </div>
                     </div>
+                    <div className={s.right}>
+                        <div className={s.blockRight}>
+                            <h4 className={s.title}>Години відкриття</h4>
+                            <div className={s.days}>
+                                <p className={s.content}>Пн–Пт: 10:00 – 16:00</p>
+                                <p className={s.content}>Сб–Нд: вихідні</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className={s.bottom}></div>
+                <div className={s.bottom}>
+                    <div className={s.smallBlock}>
+                        <span className={s.allRight}> &copy; {currentYear} Всі права захищені.</span>
+                    </div>
+                </div>
             </div>
         </div>
     )
